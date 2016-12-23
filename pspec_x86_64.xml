@@ -1,0 +1,98 @@
+<PISI>
+    <Source>
+        <Name>python-trollius</Name>
+        <Packager>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federico.d.schonborn@protonmail.com</Email>
+        </Packager>
+        <License>Apache-2.0</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Port of the asyncio project to Python 2.7</Summary>
+        <Description xml:lang="en">Trollius provides infrastructure for writing single-threaded concurrent code using coroutines, multiplexing I/O
+access over sockets and other resources, running network clients and servers, and other related primitives.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-trollius</Name>
+        <Summary xml:lang="en">Port of the asyncio project to Python 2.7</Summary>
+        <Description xml:lang="en">Trollius provides infrastructure for writing single-threaded concurrent code using coroutines, multiplexing I/O
+access over sockets and other resources, running network clients and servers, and other related primitives.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius-2.1-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/base_events.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/base_events.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/base_subprocess.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/base_subprocess.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/compat.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/compat.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/constants.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/constants.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/coroutines.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/coroutines.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/events.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/events.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/executor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/executor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/futures.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/futures.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/locks.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/locks.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/log.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/log.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/proactor_events.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/proactor_events.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/protocols.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/protocols.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/py27_weakrefset.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/py27_weakrefset.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/py33_exceptions.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/py33_exceptions.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/py33_winapi.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/py33_winapi.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/py3_ssl.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/py3_ssl.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/queues.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/queues.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/selector_events.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/selector_events.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/selectors.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/selectors.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/sslproto.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/sslproto.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/streams.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/streams.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/subprocess.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/subprocess.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/tasks.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/tasks.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/test_support.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/test_support.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/test_utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/test_utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/time_monotonic.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/time_monotonic.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/transports.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/transports.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/unix_events.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/unix_events.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/windows_events.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/windows_events.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/windows_utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/trollius/windows_utils.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-12-23</Date>
+            <Version>2.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federico.d.schonborn@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

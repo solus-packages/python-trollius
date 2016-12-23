@@ -1,0 +1,17 @@
+name       : python-trollius
+version    : 2.1
+release    : 1
+source     :
+    - https://github.com/haypo/trollius/archive/trollius-2.1.tar.gz : c9f7f35b011afa6adbd92d91ca347e76412ac3ff56a53133d36800892e5e6383
+license    : Apache-2.0
+component  : programming.python
+summary    : Port of the asyncio project to Python 2.7
+description: |
+    Trollius provides infrastructure for writing single-threaded concurrent code using coroutines, multiplexing I/O
+    access over sockets and other resources, running network clients and servers, and other related primitives.
+rundeps    :
+    - python-six
+build      : |
+    %python_setup
+install    : |
+    %python_install
